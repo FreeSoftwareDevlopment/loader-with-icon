@@ -1,6 +1,7 @@
 # loader-with-icon
 [Loading Script](https://freesoftwaredevlopment.github.io/loader-with-icon/load.js)
 ## Steps
+- start load.js
 - The app waits 6 seconds
 - then it load the `text.txt` file
 - then it loads the `README.md` file
