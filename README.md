@@ -8,7 +8,7 @@
 - then it wait 2 seconds
 - then it disable the loader
 - then set version from file `version.json`
-- then Check for change
+- then Check every 3 seconds for change
 - if change **reload**
 
 ## LINKS
