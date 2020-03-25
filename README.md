@@ -16,3 +16,4 @@
 
 - [GITHUB](https://github.com/FreeSoftwareDevlopment/loader-with-icon)
 - [WEBPAGE (DEMO)](https://freesoftwaredevlopment.github.io/loader-with-icon/)
+- [ON SHARKBLOG](https://sharkblog.glitch.me/one#82)
