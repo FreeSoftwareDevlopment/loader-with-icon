@@ -9,7 +9,8 @@
 			setInterval(function(){
 				$.get( "version.json",{ "_": $.now() }, function( data ) {
 					if(version < data.version){
-						document.location.reload();
+						loader();
+						setTimeout(function(){document.location.reload();}, 3000);
 					}
 				}, "json" );
 			},3000);
