@@ -7,3 +7,8 @@
 - then it comile md
 - then it wait 2 seconds
 - then it disable the loader
+
+## LINKS
+
+- [GITHUB](https://github.com/FreeSoftwareDevlopment/loader-with-icon)
+- [WEBPAGE (DEMO)](https://freesoftwaredevlopment.github.io/loader-with-icon/)
