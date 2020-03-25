@@ -28,6 +28,7 @@
 	<script>
 		//RELOAD ON CHANGE
 		(function(){
+			$.ajaxSetup({ cache: false });
 			console.info("USING GITHUB VERSION RELOADER");
 			var version;
 			$.get( "version.json", function( data ) {
