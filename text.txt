@@ -1,0 +1,17 @@
+JQUERY GET DOCUMENTATION: https://api.jquery.com/jQuery.get/
+
+
+#USED CODE:
+setTimeout(function(){
+			$.get("text.txt", function(data, status){
+    			$("p").text(data);
+    			setTimeout(loader,2000); 
+  			},"text");
+		},6000);
+
+
+
+
+
+
+ ------- THIS IS A TEXT TEST FILE

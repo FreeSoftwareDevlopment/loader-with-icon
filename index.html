@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Loading Demo</title>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+</head>
+<body>
+	<h1>Example for Loading page</h1>
+	<div id="load"></div>
+	<p></p>
+	<script type="text/javascript" src="load.js"></script>
+	<script type="text/javascript">
+		setTimeout(function(){
+			$.get("text.txt", function(data, status){
+    			$("p").text(data);
+    			setTimeout(loader,2000); 
+  			},"text");
+		},6000);
+	</script>
+</body>
+</html>
