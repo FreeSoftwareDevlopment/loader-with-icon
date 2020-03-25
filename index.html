@@ -25,5 +25,21 @@
   			},"text");
 		},6000);
 	</script>
+	<script>
+		//RELOAD ON CHANGE
+		(function(){
+			var version;
+			$.get( "version.json", function( data ) {
+				version=data.version;
+			}, "json" );
+			setInterval(function(){
+				$.get( "version.json", function( data ) {
+					if(version < data.version){
+						document.location.reload();
+					}
+				}, "json" );
+			},3000);
+		})();
+	</script>
 </body>
 </html>
