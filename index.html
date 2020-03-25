@@ -19,7 +19,7 @@
     				$("p").text(data);
 				$.get("https://freesoftwaredevlopment.github.io/loader-with-icon/README.md", function(readmem, sstatus){
     					var converter = new showdown.Converter();
-					$("div#markdown").HTML(converter.makeHtml(readmem));
+					$("div#markdown").html(converter.makeHtml(readmem));
 					setTimeout(loader,2000); 
 				}, "text");
   			},"text");
