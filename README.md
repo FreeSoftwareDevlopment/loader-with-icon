@@ -7,6 +7,9 @@
 - then it comile md
 - then it wait 2 seconds
 - then it disable the loader
+- then set version from file `version.json`
+- then Check for change
+- if change **reload**
 
 ## LINKS
 
