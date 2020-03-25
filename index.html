@@ -35,7 +35,7 @@
 				console.info("INFORMATION RELOADER\nVERSION: "+version+"\nREPOS: "+data.repos);
 			}, "json" );
 			setInterval(function(){
-				$.get( "version.json", function( data ) {
+				$.get( "version.json",{ "_": $.now() }, function( data ) {
 					if(version < data.version){
 						document.location.reload();
 					}
